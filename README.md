@@ -50,14 +50,14 @@
 - use  
   - basic 
        
-        \- [ ] walk dog   
-        \- [x] do homework  
+        - [ ] walk dog   
+        - [x] do homework  
   - nested
           
-        \- [x] today homework  
-          \- [ ] math  
-          \- [ ] english  
-        \- [ ] take a walk  
+        - [x] today homework  
+          - [ ] math  
+          - [ ] english  
+        - [ ] take a walk  
       
 ## strikethrough  
 - term  
