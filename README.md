@@ -26,7 +26,7 @@
     
   > \| -> |  
   > `\|` -> \<code>|\<code>  
-- break  
+- break condition  
   > table is broken at the first empty line, or beginning of another block-level structure  
   
 - precautions  
@@ -44,35 +44,79 @@
   - no rows  
     \- no \<tbody> is generated in HTML output  
 ## task list items
-  - term  
-    1. task list items  
+- term  
+  1. task list items  
     \- check box  
-  - use  
-    - basic 
+- use  
+  - basic 
        
-          \- [ ] walk dog   
-          \- [x] do homework  
-    - nested
+        \- [ ] walk dog   
+        \- [x] do homework  
+  - nested
           
-          \- [x] today homework  
-            \- [ ] math  
-            \- [ ] english  
-          \- [ ] take a walk  
-        
+        \- [x] today homework  
+          \- [ ] math  
+          \- [ ] english  
+        \- [ ] take a walk  
+      
 ## strikethrough  
-  - term  
-    1. strikethrough  
-      ~~[Text]~~  
-  - use  
-    - basic
+- term  
+  1. strikethrough  
+    ~~[Text]~~  
+- use  
+   - basic
           
-          \~~Hi\~~ Hello, World!  
-  - caution  
-    > new paragraph will cause strikethrough parsing to cease  
-    
-        This ~~ has a  
-        new paragraph~~.  
-## Autolinks
+        \~~Hi\~~ Hello, World!  
+- caution  
+  > new paragraph will cause strikethrough parsing to cease  
+   
+      This ~~ has a  
+      new paragraph~~.  
+## Autolinks  
+- term  
+  1. Autolinks  
+    \-automatically recognize and make into link  
+- URL
+  > http will be inserted automatically  
+  1. vaild domain  
+  
+        www.naver.com    
+  2. zero or more non-space non-< characters may follow  
+        
+        Visit www.commonmark.org/help for more information.  
+  3. Trailing punctuation (specifically, ?, !, ., ,, :, *, _, and ~) will not be considered  
+        
+        Visit www.commonmark.org.  
+    - only "www.commonmark.org" is considered as link
+  4. autolink ends in )  
 
+        www.google.com/search?q=Markup+(business)))  
+    - automatically consider as "www.google.com/search?q=Markup+(business)"  
+  
+  5. autolink ends in a semicolon(;)  
+  
+        www.google.com/search?q=commonmark&hl;  
+    - exclude entitiy reference (after &)  
+    - automatically consider as "www.google.com/search?q=commonmark"  
+  6. '<' immediately ends an autolink  
+
+        www.commonmark.org/he<lp  
+    - automatically consider as "www.commonmark.org/he"  
+  7. http://, https://
+  
+        http://commonmark.org
+        https://commonmark.org
+        
+- email
+  >1\. One ore more characters which are alphanumeric, or ., -, _, or +.
+An @ symbol.
+  >2. One or more characters which are alphanumeric, or - or _, separated by periods (.). 
+  >3. There must be at least one period. The last character must not be one of - or _.   >4. + can occur before the @, but not after. 
+  >5. ., -, and _ can occur on both sides of the @, but only . may occur at the end of the email address, in which case it will not be considered part of the address:
+    
+  - basic
+  
+        foo@bar.baz
+  
 ## Disallowed Raw HTML
 
