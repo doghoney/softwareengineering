@@ -60,9 +60,10 @@
       ~~[Text]~~  
   - use  
     - basic  
-        ~~Hi~~ Hello, World!  
+        \~~Hi\~~ Hello, World!  
   - caution  
     > new paragraph will cause strikethrough parsing to cease  
+    
         This ~~ has a  
         new paragraph~~.  
 ## Autolinks
