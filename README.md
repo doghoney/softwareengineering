@@ -45,7 +45,7 @@
     1. task list items  
     \- check box  
   - use  
-    -basic    
+    - basic    
         \- [ ] walk dog   
         \- [x] do homework  
     - nested  
@@ -54,8 +54,17 @@
           \- [ ] english  
         \- [ ] take a walk  
         
-## strikethrough
-
+## strikethrough  
+  - term  
+    1. strikethrough  
+      ~~[Text]~~  
+  - use  
+    - basic  
+        ~~Hi~~ Hello, World!  
+  - caution  
+    > new paragraph will cause strikethrough parsing to cease  
+        This ~~ has a  
+        new paragraph~~.  
 ## Autolinks
 
 ## Disallowed Raw HTML
