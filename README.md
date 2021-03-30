@@ -41,18 +41,18 @@
   - no rows  
     \- no \<tbody> is generated in HTML output  
 ## task list items
-  - term
-    1. task list items
-    \- check box
-  - use
-    -basic 
-        \- [ ] walk dog 
-        \- [x] do homework
-    - nested
-        \- [x] today homework
-          \- [ ] math
-          \- [ ] english
-        \- [ ] take a walk
+  - term  
+    1. task list items  
+    \- check box  
+  - use  
+    -basic    
+        \- [ ] walk dog   
+        \- [x] do homework  
+    - nested  
+        \- [x] today homework  
+          \- [ ] math  
+          \- [ ] english  
+        \- [ ] take a walk  
         
 ## strikethrough
 
