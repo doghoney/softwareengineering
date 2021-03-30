@@ -7,19 +7,22 @@
   2. delimiter row  
     |------|------|
 - use  
-  - basic  
+  - basic
+    
         | name | age |  
         | ---- | --- |  
         | junho | 21 |  
   
   - using (:)  
+
         | name | age |  
         | :-: | ---------: |  
         | junho | 21 |       
 - escaping (\|)  
-    | f\|oo |
-    | ----- |  
-    | b`\|` az |  
+
+      | f\|oo |
+      | ----- |  
+      | b`\|` az |  
     
   > \| -> |  
   > `\|` -> \<code>|\<code>  
@@ -29,9 +32,9 @@
 - precautions  
   >The header row must match the delimiter row in the number of cells.  
 
-    | abc | def |  
-    | --- |  
-    | bar |  
+      | abc | def |  
+      | --- |  
+      | bar |  
   - this is treated as paragraph  
 - exception  
   - fewer than header row:  
@@ -45,22 +48,25 @@
     1. task list items  
     \- check box  
   - use  
-    - basic    
-        \- [ ] walk dog   
-        \- [x] do homework  
-    - nested  
-        \- [x] today homework  
-          \- [ ] math  
-          \- [ ] english  
-        \- [ ] take a walk  
+    - basic 
+       
+          \- [ ] walk dog   
+          \- [x] do homework  
+    - nested
+          
+          \- [x] today homework  
+            \- [ ] math  
+            \- [ ] english  
+          \- [ ] take a walk  
         
 ## strikethrough  
   - term  
     1. strikethrough  
       ~~[Text]~~  
   - use  
-    - basic  
-        \~~Hi\~~ Hello, World!  
+    - basic
+          
+          \~~Hi\~~ Hello, World!  
   - caution  
     > new paragraph will cause strikethrough parsing to cease  
     
