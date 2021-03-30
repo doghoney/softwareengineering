@@ -76,7 +76,7 @@
 - term  
   1. Autolinks  
     \-automatically recognize and make into link  
-- URL
+- URL  
   > http will be inserted automatically  
   1. vaild domain  
   
@@ -101,22 +101,23 @@
   6. '<' immediately ends an autolink  
 
         www.commonmark.org/he<lp  
-    - automatically consider as "www.commonmark.org/he"  
-  7. http://, https://
+    - automatically consider as "www.commonmark.org/he"   
+  7. http://, https://  
   
-        http://commonmark.org
-        https://commonmark.org
+        http://commonmark.org  
+        https://commonmark.org  
         
 - email
-  >1\. One ore more characters which are alphanumeric, or ., -, _, or +.
-An @ symbol.
-  >2. One or more characters which are alphanumeric, or - or _, separated by periods (.). 
-  >3. There must be at least one period. The last character must not be one of - or _.   >4. + can occur before the @, but not after. 
-  >5. ., -, and _ can occur on both sides of the @, but only . may occur at the end of the email address, in which case it will not be considered part of the address:
+  >1\. One ore more characters which are alphanumeric, or ., -, _, or +.  
+  >2. An @ symbol.   
+  >3. One or more characters which are alphanumeric, or - or _, separated by periods (.).    
+  >4. There must be at least one period. The last character must not be one of - or _.     
+  >5. + can occur before the @, but not after.     
+  >6. ., -, and _ can occur on both sides of the @, but only . may occur at the end of the email address, in which case it will not be considered part of the address:  
     
-  - basic
+  - basic  
   
-        foo@bar.baz
+        foo@bar.baz  
   
 ## Disallowed Raw HTML
 
