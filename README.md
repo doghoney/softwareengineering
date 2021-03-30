@@ -120,4 +120,14 @@
         foo@bar.baz  
   
 ## Disallowed Raw HTML
-
+>GFM enables the tagfilter extention
+>But, some HTML tag is not allowed
+  - \<title>
+  - \<textarea>
+  - \<style>
+  - \<xmp>
+  - \<iframe>
+  - \<noembed>
+  - \<noframes>
+  - \<script>
+  - \<plaintext>
