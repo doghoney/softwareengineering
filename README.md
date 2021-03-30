@@ -132,8 +132,8 @@
   - \<script>
   - \<plaintext>
 
-      <strong> <title> <style> <em>
+      \<strong> \<title> \<style> \<em>
 
-      <blockquote>
-        <xmp> is disallowed.  <XMP> is also disallowed.
-      </blockquote>
+      \<blockquote>
+        \<xmp> is disallowed.  \<XMP> is also disallowed.
+      \</blockquote>
