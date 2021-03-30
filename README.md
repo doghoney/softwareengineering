@@ -25,7 +25,7 @@
       | b`\|` az |  
     
   > \| -> |  
-  > \`\|\` -> \<code>|\<code>  
+  > \`\\|\` -> \<code>|\<code>  
 - break condition  
   > table is broken at the first empty line, or beginning of another block-level structure  
   
